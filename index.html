@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style.css" rel="stylesheet" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="form">
+            <form id="form">
+                <h1>Register</h1>
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        placeholder="Enter Username"
+                    />
+                    <small>Error message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">E-mail</label>
+                    <input
+                        type="text"
+                        name="email"
+                        id="email"
+                        placeholder="Enter E-mail"
+                    />
+                    <small>Error message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        name="password1"
+                        id="password1"
+                        placeholder="Enter password"
+                    />
+                    <input
+                        type="password"
+                        name="password2"
+                        id="password2"
+                        placeholder="Confirm password"
+                    />
+                    <small>Error message</small>
+                </div>
+                <button class="submit">Submit</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
