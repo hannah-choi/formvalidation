@@ -48,15 +48,15 @@ const lengthCheck = (el, min, max) => {
 
 const passwordMatch = (password1, password2) => {
     if (password1.value && password1.value !== password2.value) {
-        showError(password1, " does not match");
+        showError(password1, "s do not match");
     } else {
         showSuccess(password1);
     }
 };
 
 const getName = name => {
-    if (name === password1 || name === password2) {
-        return Password;
+    if (name === "password1" || name === "password2") {
+        return "Password";
     }
     return name.charAt(0).toUpperCase() + name.slice(1);
 };
